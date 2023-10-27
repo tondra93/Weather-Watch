@@ -6,10 +6,35 @@
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="container">
-            <div class="search-box">
+        <div class="card">
+            <div class="search">
                 <input type="text" class="search-bar" placeholder="Search for a city..." spellcheck="false">
-                <button class="search-btn"><img src="images/search.png"></button>
+                <button><img src="images/search.png"></button>
+            </div>
+            <div class="weather">
+                <img src="images/rain.png" class="weather-icon">
+                <div class="temp">
+                    <p id="temp">27°C</p>
+                </div>
+                <div class="location">
+                    <p id="location">Sylhet</p>
+                    <p id="date">27 October</p>
+                    <div class="details">
+                        <div class="col">
+                            <img src="images/humidity.png">
+                            <div>
+                                <p class="humidity">50%</p>
+                                <p>Humidity</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <img src="images/wind.png">
+                            <div>
+                                <p class="wind">15 km/h</p>
+                                <p>Wind Speed</p>
+                            </div>
+                        </div>
+                    </div>
             </div>
     </body>
 </html>
